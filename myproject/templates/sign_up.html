@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign_up</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='login-.css')}}">
+</head>
+<body>
+<div class="main">
+<form action="{{url_for('sign_up_load')}}" method="post">
+        <div>登录</div>
+        username:<br>
+        <input type="text" name="username">
+        <br>
+        password:<br>
+        <input type="text" name="password">
+        <br>
+        admin:<br>
+        <input type="text" name="admin" value="身份">
+        <p>admin为1是用户，2是商家，3是骑手</p>
+        <input style="color:blue" type="submit" value="注册 " >
+
+</form>
+</div>
+</body>
+</html>

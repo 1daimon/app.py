@@ -1,0 +1,7 @@
+.main{
+    width:200px;
+    margin:300px auto;
+    box-sizing: content-box;
+    background-color:yellow;
+    padding-left:20px;
+}
